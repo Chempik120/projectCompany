@@ -1,7 +1,20 @@
+.web-programming {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  outline: none;
+}
+
+.play-button {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
 }
