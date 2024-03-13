@@ -1,7 +1,6 @@
-.web-programming {
-  width: 30px;
-  height: 30px;
-  flex-shrink: 0;
+.icon-web-programming {
+  font-size: 30px;
+  color: #4985FF;
 }
 
 * {
@@ -13,8 +12,8 @@
   outline: none;
 }
 
-.play-button {
-  width: 60px;
-  height: 60px;
+.icon-play-button {
+  font-size: 60px;
   flex-shrink: 0;
+  color: #4985FF;
 }
