@@ -1,14 +1,9 @@
 .it-navigation{
-    position: absolute;
-    padding-left: 952px;
+    background-position-y: center;
     display: flex;
-    margin-right: 407px;
-    margin-top: 40px;
-    padding-bottom: 40px;
-    border-bottom:1px solid ;
-    border-bottom-color: #a1a1a17e;
-    
-    width: 100vw;
+    justify-content: end;
+    padding-top: 40px;
+    padding-bottom: 23px;
 }
 
 .navi-item{
@@ -33,7 +28,7 @@ text-decoration: none;
     &:hover:after{
         display: block;
         position: absolute;
-        bottom: -41px;
+        bottom: -40px;
         
         transform: scale(1);
         width: 100%;
@@ -45,5 +40,10 @@ text-decoration: none;
 
 .it-header{
     width: 100vw;
-    
+    position: absolute;
+    border-bottom:1px solid #a1a1a17e;
+}
+
+.container{
+    width: 1143px;
 }

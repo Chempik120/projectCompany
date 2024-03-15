@@ -1,9 +1,11 @@
 .hero{
-    height: 900px;
+    
     background-image: url(../images/herobackground.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(47, 48, 58, 0.40);
+    padding-top: 320px;
+    padding-bottom: 335px;
 }
 
 .hero-p{
@@ -24,7 +26,6 @@ margin-bottom: 20px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 320px;
 }
 
 .hearo-heading{
