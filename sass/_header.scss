@@ -1,0 +1,29 @@
+.it-navigation{
+    position: absolute;
+    padding-left: 952px;
+    display: flex;
+    margin-right: 407px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-bottom:1px solid #A1A1A1;
+    width: 100vw;
+}
+
+.navi-item{
+
+    color: #ffffff;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+    &:not(:last-child){
+        margin-right: 40px;
+    }
+}
+
+.it-header{
+    width: 100vw;
+    
+}
