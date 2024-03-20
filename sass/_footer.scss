@@ -1,0 +1,100 @@
+.text-lg-start{
+    height: 413px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-uppercase{
+    width: 242px;
+height: 17px;
+flex-shrink: 0;
+color: #000;
+
+/* h3 */
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 35px;
+}
+
+.list-unstyled{
+    margin-top: 30px;
+    &:not(:last-child){
+        margin-right: 30px;
+    }
+}
+
+.text-body{
+    width: 225px;
+height: 14px;
+flex-shrink: 0;
+color: #999 !important;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 158.47%; /* 22.186px */
+list-style: none;
+text-decoration: none;
+margin-top: 30px;
+}
+
+.icon-right-arrow{
+    font-size: 10px;
+height: 10px;
+flex-shrink: 0;
+color: #999;
+padding-right: 10px;
+}
+
+.icon-envelope{
+    font-size: 15px;
+height: 15px;
+flex-shrink: 0;
+color: #999;
+padding-right: 15px;
+}
+
+.icon-call{
+    font-size: 15px;
+height: 15px;
+flex-shrink: 0;
+color: #999;
+padding-right: 15px;
+}
+
+.icon-placeholder{
+    font-size: 15px;
+height: 15px;
+flex-shrink: 0;
+color: #999;
+padding-right: 15px;
+}
+
+.footer-cont{
+    width: 1110px;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 0 0 0px 0;
+}
+
+.p-4{
+    padding: 0 0 70px 0 !important;
+}
+
+.copyrights{
+    width: 386px;
+height: 15px;
+flex-shrink: 0;
+color: var(--grey, #999);
+text-align: center;
+font-family: Montserrat;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 158.47%; /* 20.601px */
+margin-top: 30px;
+}
